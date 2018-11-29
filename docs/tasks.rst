@@ -5,11 +5,13 @@
 
 .. _Tasks:
 
-Tasks
+Tasks 任务
 =====
 
 Tasks store dictionaries and provide helpers for loading/iterating over
 Datasets, initializing the Model/Criterion and calculating the loss.
+
+任务类保存词典，并且提供加载/迭代数据集的帮助，初始化模型/评价准则和计算损失函数。
 
 Tasks can be selected via the ``--task`` command-line argument. Once selected, a
 task may expose additional command-line arguments for further configuration.
